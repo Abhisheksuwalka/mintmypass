@@ -1,0 +1,28 @@
+.eventListContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.eventList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.eventListItem {
+  margin: 0.5em 0;
+  background: #f9f9f9;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.eventLink {
+  text-decoration: none;
+  color: #007bff;
+}
+
+@media (max-width: 600px) {
+  .eventListContainer {
+    padding: 0.5em;
+  }
+}

@@ -1,0 +1,48 @@
+.adminFormStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.inputStyle,
+.textareaStyle {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textareaStyle {
+  height: 100px;
+}
+
+.buttonStyle {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .adminFormStyle {
+    padding: 0.5em;
+  }
+
+  .inputStyle,
+  .textareaStyle {
+    padding: 0.4em;
+  }
+
+  .buttonStyle {
+    padding: 0.4em 0.8em;
+  }
+}

@@ -1,0 +1,13 @@
+.eventDetailsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .eventDetailsContainer {
+    padding: 0.5em;
+  }
+}
